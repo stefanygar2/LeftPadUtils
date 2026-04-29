@@ -54,10 +54,6 @@ class LeftPadUtilsTest {
         assertEquals("acat", LeftPadUtils.leftPad("cat", 4, "abc"));
     }
 
-    // =========================
-    // Part 4: Structural Tests
-    // =========================
-
     @Tag("structural")
     @Test
     void leftPad_multiCharacterPad_repeatsPadString() {
